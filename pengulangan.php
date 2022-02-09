@@ -26,9 +26,9 @@
 
     // }
 
-    $data = ['nama' => 'Sofyan',
+    $data = ['nama' => 'bally',
              'umur' => 24,
-             'sifat' => 'malas'];
+             'sifat' => 'rajin'];
 
     foreach ($data as $key => $value) {
         echo $value . "<br>";
