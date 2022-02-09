@@ -26,7 +26,7 @@
 
     // }
 
-    $data = ['nama' => 'sofyan',
+    $data = ['nama' => 'bally',
              'umur' => 24,
              'sifat' => 'rajin'];
 
