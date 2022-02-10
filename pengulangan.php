@@ -26,15 +26,22 @@
 
     // }
 
-    $data = ['nama' => 'bally',
-             'umur' => 24,
-             'sifat' => 'rajin'];
+    // $data = ['nama' => 'bally',
+    //          'umur' => 24,
+    //          'sifat' => 'rajin'];
 
-    foreach ($data as $key => $value) {
-        echo $value . "<br>";
+    // foreach ($data as $key => $value) {
+    //     echo $value . "<br>";
+    // }
+    
+    // while & do while
+    //while(syarat)
+
+    $i = 0;
+    while($i < count($hewan)) {
+    echo $hewan[$i]. "<br>"
+    $i++;
     }
-    
-    
     
     ?>
 </body>
