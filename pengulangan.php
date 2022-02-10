@@ -38,10 +38,17 @@
     //while(syarat)
 
     $i = 0;
-    while($i < count($hewan)) {
-    echo $hewan[$i]. "<br>"
-    $i++;
-    }
+    // while($i < count($hewan)) {
+    // echo $hewan[$i]. "<br>";
+    // $i++;
+    // }
+
+    do{
+        echo '--------';
+        echo $hewan[$i]. "<br>";
+        $i++;
+     } while($i < count($hewan));
+    
     
     ?>
 </body>
