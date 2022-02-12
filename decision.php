@@ -10,15 +10,31 @@
     <h1>Logika di PHP</h1>
     <?php 
     
-    $password = '1234';
-    $password2 = 1234;
-    if($password === $password2 ) {
-        echo 'anda berhasil masuk !';
-    } else {
-        echo ' gagal ! password anda salah !';
+    // if dan else
+    // operator logika == === > >= < <= !=
+    
+    // $password = 1234;
+    // $password2 = 1234;
+    // if($password >= $password2 ) {
+    //     echo 'anda berhasil masuk !';
+    // } else {
+    //     echo ' gagal ! password anda salah !';
+    // }
+    
+    $uang_programmer    = 1000;
+    $uang_designer      = 5000;
+    $keyboard           = 2000;
+    if ($uang_programmer > $keyboard) {
+        echo "berhasil di beli";
+    } else if($uang_designer > $keyboard) {
+        echo "berhasil di beli ";
+    if ($uang_designer >= $keyboard * 1 )  {
+        echo "di beli dua kali oleh designer";
     }
-    
-    
+    } else {
+        echo "gagal di beli uang anda tidak cukup";
+    }
+
     
     ?>
 </body>
